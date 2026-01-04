@@ -1,0 +1,15 @@
+name: 死亡与状态追踪
+author: Shiyuvi
+punchline: 记录死亡与指定状态获得，并持久保存到 JSON。
+description: |-
+  追踪角色死亡与指定状态获得（如 Damage Down、Vulnerability Up）。
+  支持按副本、玩家、时间范围筛选，并记录伤害来源/技能。
+  事件数据以 JSON 保存，便于分析与归档。
+repo_url: https://github.com/flyrio/DeathBuffTracker
+icon_url: https://raw.githubusercontent.com/flyrio/DeathBuffTracker/main/assets/icon.png
+tags:
+  - death
+  - buff
+  - log
+category_tags:
+  - utility
